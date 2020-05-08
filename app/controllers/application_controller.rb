@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_action :require_user_logged_in, only: [:new, :create]
+  
   include SessionsHelper
     
   private
